@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>li</title>
+    <style>
+        body {
+            margin: 0 auto;
+            padding: 0 2em;
+            max-width: 44em;
+        }
+
+        .container {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            white-space: nowrap;
+            width: min-content;
+            background-color: #ddd;
+            color: #262626;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+        }
+
+        @media (max-width: 767px) {
+            .container {
+                white-space: normal;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <code>npm i -g li-cli</code>
+    </div>
+</body>
+
+</html>
