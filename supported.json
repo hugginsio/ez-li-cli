@@ -4,6 +4,7 @@
         "ISC",
         "AGPL-3.0-or-later",
         "GPL-3.0-or-later",
-        "LGPL-3.0-or-later"
+        "LGPL-3.0-or-later",
+        "MPL-2.0"
     ]
 }
