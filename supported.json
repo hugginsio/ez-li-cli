@@ -1,6 +1,7 @@
 {
     "supported": [
         "MIT",
-        "ISC"
+        "ISC",
+        "AGPL-3.0-or-later"
     ]
 }
